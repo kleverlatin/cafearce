@@ -1,4 +1,4 @@
-import { MapPin, Clock, Phone } from "lucide-react"
+import { MapPin, Clock, Phone, MessageCircle } from "lucide-react"
 
 export function LocationSection() {
   return (
@@ -88,19 +88,22 @@ export function LocationSection() {
       rel="noopener noreferrer"
       className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition"
     >
-      💬 WhatsApp Principal
-      <span className="text-sm opacity-90">+57 3106749303</span>
+     <MessageCircle className="w-5 h-5" />
+  <span>WhatsApp</span>
+  <span className="text-sm opacity-90">+57 3106749303</span>
     </a>
 
     {/* Otros WhatsApp */}
-    <a
-      href="https://wa.me/573166208783"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center gap-3 bg-green-500/90 hover:bg-green-600 text-white py-2 rounded-lg transition"
-    >
-      💬 WhatsApp 2: +57 3166208783
-    </a>
+   <a
+  href="https://wa.me/573166208783"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg transition font-semibold tracking-wide"
+>
+  <MessageCircle className="w-5 h-5" />
+  <span>WhatsApp</span>
+  <span className="text-sm opacity-90">+57 3166208783</span>
+</a>
 
     <a
       href="https://wa.me/573133480674"
@@ -108,7 +111,9 @@ export function LocationSection() {
       rel="noopener noreferrer"
       className="flex items-center justify-center gap-3 bg-green-500/90 hover:bg-green-600 text-white py-2 rounded-lg transition"
     >
-      💬 WhatsApp 3: +57 3133480674
+      <MessageCircle className="w-5 h-5" />
+      <span>WhatsApp</span>
+      <span className="text-sm opacity-90">+57 3133480674</span>
     </a>
 
     {/* Email */}

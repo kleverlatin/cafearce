@@ -112,7 +112,7 @@ export function Header() {
             className="mt-2 bg-primary hover:bg-primary/90 text-primary-foreground w-full"
           >
             <Link href="#productos" onClick={() => setIsMenuOpen(false)}>
-              Comprar ahora
+              Precios
             </Link>
           </Button>
         </nav>
