@@ -61,7 +61,7 @@ export function AboutSection() {
               </div>
               <div>
                 <div className="text-3xl md:text-4xl font-serif font-bold text-amber-700">
-                  1,400m
+                  1,800m
                 </div>
                 <div className="text-sm text-stone-600 mt-1">
                   Altura de cultivo

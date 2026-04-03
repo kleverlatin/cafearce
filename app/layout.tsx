@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from 'next'
-import { Playfair_Display, Inter } from 'next/font/google'
+import { Playfair_Display, Poppins } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
@@ -8,15 +8,16 @@ const playfair = Playfair_Display({
   variable: '--font-playfair',
 })
 
-const inter = Inter({ 
+const poppins = Poppins({ 
   subsets: ['latin'],
-  variable: '--font-inter',
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-poppins',
 })
 
 export const metadata: Metadata = {
-  title: 'Café Don Arce | Café Colombiano Premium',
-  description: 'Descubre el auténtico sabor del café colombiano. Café Don Arce ofrece granos selectos cultivados en las montañas de Colombia con tradición y pasión.',
-  keywords: ['café colombiano', 'café premium', 'Don Arce', 'café de origen', 'café artesanal'],
+  title: 'Café Don Arce | Café Colombiano Tolimense',
+  description: 'Compra café colombiano premium directo del productor. En Café Don Arce ofrecemos café de origen 100% colombiano, cafe orgánico con envío a todo el país.',
+  keywords: ['café colombiano', 'café orgánico', 'Don Arce', 'Chaparral', 'café artesanal', 'Tolima'],
 }
 
 export const viewport: Viewport = {
@@ -30,7 +31,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es">
-      <body className={`${playfair.variable} ${inter.variable} font-sans antialiased bg-stone-50`}>
+      <body className={`${playfair.variable} ${poppins.variable} font-sans antialiased bg-stone-50 text-[16px] sm:text-[17px] md:text-[18px]`}>
         {children}
         <Analytics />
       </body>

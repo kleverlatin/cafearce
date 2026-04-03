@@ -73,63 +73,54 @@ export function LocationSection() {
             </div>
 
           {/* Contact Card */}
-            <div className="bg-white rounded-lg p-6 shadow-lg border border-stone-200">
-              <div className="flex items-start gap-4">
-                <div className="p-3 rounded-full bg-amber-700/10">
-                  <Phone className="h-6 w-6 text-amber-700" />
-                </div>
-                <div>
-                  <h3 className="text-lg font-serif font-semibold text-stone-800 mb-2">
-                    Contacto
-                  </h3>
+            {/* Contact Card */}
+<div className="bg-white rounded-xl p-6 shadow-xl border border-stone-200 max-w-md">
+  <h3 className="text-xl font-serif font-semibold text-stone-800 mb-4">
+    📞 Contáctanos
+  </h3>
 
-                  <div className="text-stone-600 space-y-2">
-                    <p>
-                      <span className="font-medium text-stone-800">Teléfono: </span>
-                      <a
-                        href="https://wa.me/573106749303"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:text-amber-700"
-                      >
-                        +57 310 674 9303
-                      </a>
-                    </p>
+  <div className="space-y-3">
 
-                    <p>
-                      <span className="font-medium text-stone-800">WhatsApp:</span>
-                      <br />
-                      <a
-                        href="https://wa.me/573166208783"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block hover:text-amber-700"
-                      >
-                        +57 316 620 8783
-                      </a>
-                      <a
-                        href="https://wa.me/573133480674"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block hover:text-amber-700"
-                      >
-                        +57 313 348 0674
-                      </a>
-                    </p>
+    {/* Teléfono principal */}
+    <a
+      href="https://wa.me/573106749303"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition"
+    >
+      💬 WhatsApp Principal
+      <span className="text-sm opacity-90">+57 3106749303</span>
+    </a>
 
-                    <p>
-                      <span className="font-medium text-stone-800">Email: </span>
-                      <a
-                        href="mailto:isidroarce68@gmail.com"
-                        className="hover:text-amber-700"
-                      >
-                        isidroarce68@gmail.com
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
+    {/* Otros WhatsApp */}
+    <a
+      href="https://wa.me/573166208783"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-3 bg-green-500/90 hover:bg-green-600 text-white py-2 rounded-lg transition"
+    >
+      💬 WhatsApp 2: +57 3166208783
+    </a>
+
+    <a
+      href="https://wa.me/573133480674"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-3 bg-green-500/90 hover:bg-green-600 text-white py-2 rounded-lg transition"
+    >
+      💬 WhatsApp 3: +57 3133480674
+    </a>
+
+    {/* Email */}
+    <a
+      href="mailto:isidroarce68@gmail.com"
+      className="flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded-lg transition"
+    >
+      📧 Enviar Email
+    </a>
+
+  </div>
+</div>
           </div>
         </div>
       </div>
