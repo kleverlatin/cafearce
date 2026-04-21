@@ -27,11 +27,11 @@ export function HeroSection() {
           {/* Logo */}
           <div className="mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
             <Image
-              src="/public/img/cafeblanco.png"
+              src="/img/cafeblanco.png"
               alt="Café Don Arce"
               width={280}
               height={200}
-              className="mx-auto h-48 w-auto md:h-56"
+              className="mx-auto h-48 w-auto md:h-56 brightness-75 opacity-90"
               priority
               loading="eager"
             />
