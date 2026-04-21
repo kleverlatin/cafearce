@@ -27,7 +27,7 @@ export function HeroSection() {
           {/* Logo */}
           <div className="mb-8 animate-in fade-in slide-in-from-bottom-4 duration-700">
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LogoTransparente-7tzc8HBn2jBglfZ6schwzIQGaBMpOU.png"
+              src="/public/img/cafeblanco.png"
               alt="Café Don Arce"
               width={280}
               height={200}
