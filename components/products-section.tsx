@@ -9,7 +9,7 @@ const products = [
     id: 1,
     name: "Don Arce Clásico",
     description:
-      "Nuestro blend insignia con notas de chocolate, caramelo y un toque cítrico. Tueste medio, ideal para cualquier momento del día.",
+      "Nuestro blend insignia con notas de chocolate, caramelo y un toque cítrico. Ideal para: preparar en casa, todos los días",
     price: "$35.000",
     weight: "500g",
     badge: "Más Vendido",
@@ -19,7 +19,7 @@ const products = [
     id: 2,
     name: "Reserva Especial - Borbon Rosado",
     description:
-      "Café de origen único, microlote seleccionado. Notas florales, frutos rojos y acidez brillante. Para los verdaderos conocedores.",
+      "Café de origen único con notas florales y frutos rojos. Perfil más complejo, Edición limitada, disponible por temporada",
     price: "$45.000",
     weight: "500g",
     badge: "Edición Limitada",
@@ -34,14 +34,13 @@ export function ProductsSection() {
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto mb-16">
           <span className="inline-block text-amber-700 font-medium tracking-wider uppercase text-sm">
-            Nuestros Productos
+            Café de especialidad, 
           </span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-stone-800 mt-4 mb-6 text-balance">
-            Café de Especialidad
+           directo del Tolima
           </h2>
           <p className="text-stone-600 leading-relaxed">
-            Cada variedad es cuidadosamente seleccionada y tostada para resaltar
-            los sabores únicos de nuestros granos colombianos.
+            Elige tu café ideal y recíbelo directo desde origen, sin intermediarios.
           </p>
         </div>
 
@@ -77,10 +76,19 @@ export function ProductsSection() {
                 <p className="text-sm text-stone-600 mb-4 line-clamp-3">
                   {product.description}
                 </p>
-                <div className="flex items-center justify-between">
+              <div className="flex flex-col gap-3">
                   <span className="text-xl font-bold text-amber-700">
                     {product.price}
                   </span>
+
+                  <a
+                    href={`https://wa.me/573166208783?text=Hola,%20quiero%20comprar%20${encodeURIComponent(product.name)}`}
+                    target="_blank"
+                  >
+                    <Button className="w-full bg-amber-700 hover:bg-amber-800 text-white">
+                      Comprar por WhatsApp
+                    </Button>
+                  </a>
                 </div>
               </CardContent>
             </Card>

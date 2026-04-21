@@ -39,12 +39,12 @@ export function HeroSection() {
 
           {/* Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif font-bold tracking-tight text-white mb-6 text-balance animate-in fade-in slide-in-from-bottom-4 duration-700 delay-150">
-            El Auténtico Sabor del Tolima
+            Café artesanal del Tolima, directo a tu casa
           </h1>
 
           {/* Subheadline */}
           <p className="text-lg md:text-xl text-white/90 max-w-2xl mx-auto mb-10 leading-relaxed animate-in fade-in slide-in-from-bottom-4 duration-700 delay-300">
-            Desde las montañas del Cañon de las Hermosas en Chaparral - Tolima hasta tu taza. Café cultivado con pasión, recogido a mano y tostado con tradición familiar.
+            Café cultivado en Chaparral, recolectado a mano y tostado con tradición familiar. Calidad real, sin intermediarios.
           </p>
 
           {/* CTA Buttons */}
@@ -54,7 +54,7 @@ export function HeroSection() {
               size="lg"
               className="bg-amber-700 hover:bg-amber-800 text-white text-lg px-8 py-6"
             >
-              <Link href="#productos">Comprar ahora</Link>
+              <Link href="#productos">Comprar café ahora</Link>
             </Button>
             <Button
               asChild
@@ -62,7 +62,7 @@ export function HeroSection() {
               size="lg"
               className="bg-amber-700 hover:bg-amber-800 text-white text-lg px-8 py-6"
             >
-              <Link href="#historia">Nuestra Historia</Link>
+              <Link href="#historia">Conoce nuestra historia</Link>
             </Button>
           </div>
         </div>

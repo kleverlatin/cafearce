@@ -26,11 +26,11 @@ export function AboutSection() {
               Nuestra Historia
             </span>
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-bold text-stone-800 mt-4 mb-6 text-balance">
-              Tres Generaciones de Pasión por el Café
+              Más de 100 años cultivando café de calidad
             </h2>
             <div className="space-y-4 text-stone-600 leading-relaxed">
               <p>
-                En las verdes montañas del Cañón de las Hermosas, en el Tolima, donde el clima y la tierra se unen en perfecta armonía, nace Café Don Arce.
+                En las montañas del Cañón de las Hermosas, en Chaparral - Tolima, nace Café Don Arce.
               </p>
               <p>
                 Desde hace más de 100 años, nuestra familia ha cultivado café con dedicación y esfuerzo. Durante generaciones, los caficultores bajaban hasta Chaparral para vender su cosecha al precio que ofrecían los mayoristas, aceptando el valor con tal de no regresar con la carga a la finca.
@@ -38,7 +38,7 @@ export function AboutSection() {
               <p>
                 En 2023, Isidro Arce decidió cambiar esa historia.
 
-                Hoy, nuestro café cultivado desde 1920 representa más de un siglo de tradición cafetera, ahora compartida directamente contigo, con la calidad y el valor que siempre mereció. </p>
+                Hoy, nuestro café cultivado desde 1920 representa más de un siglo de tradición cafetera, ahora compartida directamente contigo, sin intermediarios con la calidad y el valor que siempre mereció. </p>
             </div>
 
             {/* Stats */}
