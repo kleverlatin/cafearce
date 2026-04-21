@@ -16,11 +16,8 @@ export function ReconocimientosSection() {
           </h2>
 
           <p className="text-stone-600 leading-relaxed">
-            En 2025, Café Don Arce destacó en la Feria Internacional del Líbano, Tolima, 
-            compitiendo entre más de 600 caficultores. Su calidad excepcional le permitió 
-            avanzar entre los 40 mejores, luego posicionarse dentro de los 20 finalistas y 
-            culminar su participación en la prestigiosa subasta nacional, consolidándose como un 
-            café de alto nivel.
+            En 2025 participamos en la Feria Internacional del Líbano, Tolima, compitiendo junto a más de 600 caficultores.
+            Nuestro café fue seleccionado entre los mejores y llegó a la subasta nacional, destacándose por su calidad y perfil único.
           </p>
         </div>
 

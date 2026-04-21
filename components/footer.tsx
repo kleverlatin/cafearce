@@ -29,9 +29,9 @@ export function Footer() {
   return (
     <footer className="bg-stone-800 text-white">
       <div className="container mx-auto px-4 py-16">
-        <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 justify-items-center text-center">
           {/* Brand */}
-          <div className="col-span-2 md:col-span-4 lg:col-span-2">
+          <div className="max-w-sm">
             <Link href="#inicio" className="inline-block mb-6">
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/LogoTransparente-7tzc8HBn2jBglfZ6schwzIQGaBMpOU.png"
@@ -46,7 +46,7 @@ export function Footer() {
               montañas de Colombia desde 1920.
             </p>
             {/* Social Links */}
-            <div className="flex gap-4">
+            <div className="flex justify-center gap-4">
               {socialLinks.map((social) => (
                 <a
                   key={social.label}
@@ -61,41 +61,7 @@ export function Footer() {
               ))}
             </div>
           </div>
-
-          {/* Productos */}
-          <div>
-            <h3 className="font-serif font-semibold text-lg mb-4">Productos</h3>
-            <ul className="space-y-3">
-              {footerLinks.productos.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-stone-400 hover:text-white transition-colors text-sm"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Empresa */}
-          <div>
-            <h3 className="font-serif font-semibold text-lg mb-4">Empresa</h3>
-            <ul className="space-y-3">
-              {footerLinks.empresa.map((link) => (
-                <li key={link.label}>
-                  <Link
-                    href={link.href}
-                    className="text-stone-400 hover:text-white transition-colors text-sm"
-                  >
-                    {link.label}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
+      
           {/* Soporte */}
           <div>
             <h3 className="font-serif font-semibold text-lg mb-4">Soporte</h3>
@@ -115,19 +81,11 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-stone-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm text-stone-500">
+        <div className="border-t border-stone-700 mt-12 pt-8 text-center">
+          <p className="text-s text-stone-500">
             © {new Date().getFullYear()} Café Don Arce. Todos los derechos
-            reservados.
+            reservados. Desarrollado por CHN Studio
           </p>
-          <div className="flex gap-6 text-sm text-stone-500">
-            <Link href="#" className="hover:text-white transition-colors">
-              Política de Privacidad
-            </Link>
-            <Link href="#" className="hover:text-white transition-colors">
-              Términos de Servicio
-            </Link>
-          </div>
         </div>
       </div>
     </footer>

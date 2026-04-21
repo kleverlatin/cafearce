@@ -71,61 +71,30 @@ export function LocationSection() {
                 </div>
               </div>
             </div>
+                <div className="bg-white rounded-xl p-8 shadow-xl border border-stone-200 text-center max-w-md mx-auto">
+                  <h3 className="text-2xl font-serif font-bold text-stone-800 mb-4">
+                    Pide tu café ahora
+                  </h3>
 
-          {/* Contact Card */}
-            {/* Contact Card */}
-<div className="bg-white rounded-xl p-6 shadow-xl border border-stone-200 max-w-md">
-  <h3 className="text-xl font-serif font-semibold text-stone-800 mb-4">
-    📞 Contáctanos
-  </h3>
+                  <p className="text-stone-600 mb-6">
+                    Escríbenos por WhatsApp y recibe café fresco directo desde el Tolima.
+                  </p>
 
-  <div className="space-y-3">
+                  <a
+                    href="https://wa.me/+573166208783?text=Hola,%20quiero%20pedir%20café"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block w-full"
+                  >
+                    <button className="w-full bg-amber-700 hover:bg-amber-800 text-white font-semibold py-4 rounded-lg transition text-lg">
+                      Pedir por WhatsApp
+                    </button>
+                  </a>
 
-    {/* Teléfono principal */}
-    <a
-      href="https://wa.me/573106749303"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 rounded-lg transition"
-    >
-     <MessageCircle className="w-5 h-5" />
-  <span>WhatsApp</span>
-  <span className="text-sm opacity-90">+57 3106749303</span>
-    </a>
-
-    {/* Otros WhatsApp */}
-   <a
-  href="https://wa.me/573166208783"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="flex items-center justify-center gap-3 bg-green-500 hover:bg-green-600 text-white py-3 rounded-lg transition font-semibold tracking-wide"
->
-  <MessageCircle className="w-5 h-5" />
-  <span>WhatsApp</span>
-  <span className="text-sm opacity-90">+57 3166208783</span>
-</a>
-
-    <a
-      href="https://wa.me/573133480674"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="flex items-center justify-center gap-3 bg-green-500/90 hover:bg-green-600 text-white py-2 rounded-lg transition"
-    >
-      <MessageCircle className="w-5 h-5" />
-      <span>WhatsApp</span>
-      <span className="text-sm opacity-90">+57 3133480674</span>
-    </a>
-
-    {/* Email */}
-    <a
-      href="mailto:isidroarce68@gmail.com"
-      className="flex items-center justify-center gap-3 bg-blue-500 hover:bg-blue-600 text-white font-medium py-3 rounded-lg transition"
-    >
-      📧 Enviar Email
-    </a>
-
-  </div>
-</div>
+                  <p className="text-sm text-stone-500 mt-4">
+                    Atención rápida • Envíos disponibles
+                  </p>
+                </div>
           </div>
         </div>
       </div>
