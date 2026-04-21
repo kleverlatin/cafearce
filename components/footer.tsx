@@ -81,12 +81,23 @@ export function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-stone-700 mt-12 pt-8 text-center">
-          <p className="text-s text-stone-500">
-            © {new Date().getFullYear()} Café Don Arce. Todos los derechos
-            reservados. Desarrollado por CHN Studio
-          </p>
-        </div>
+         <div className="border-t border-stone-700 mt-12 pt-8 text-center">
+            <p className="text-m text-stone-500">
+              © {new Date().getFullYear()} Café Don Arce. Todos los derechos reservados.
+            </p>
+
+            <p className="text-ms text-stone-600 mt-1">
+              Desarrollado por{" "}
+              <a
+                href="https://kleverlatin.github.io/portafolioch/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:opacity-80 transition-opacity underline underline-offset-2"
+              >
+                CHN Studio
+              </a>
+            </p>
+          </div>
       </div>
     </footer>
   )
